@@ -1,0 +1,47 @@
+/*
+
+This empty file will serve to identify the different variables, atributes,
+objects, and methods.This will make it easier to understand and comprehend.
+
+Atributes: 
+
+    int sumX; this atribute stores the sum of all independent variables
+    int sumY; this atribute stores the sum of all dependent variables
+    int sumXY; this atribute stores the sum of all independent variables multiplied by the dependent variables(E xi*yi)
+    int sumNXY; this atribute stores the sum of the multiplication of al independent and dependent variables multiplied by n
+    *note: is the number of of dependent variables
+    int sumXsq; this atribute stores the sum of all independent variables squared
+    int sumYsq; this atribute stores the sum of all dependent variables squared
+    int sumNXsq; this atribute stores the sum of all independent variables multiplied by n
+    int sumNYsq; this atribute stores the sum of all dependent variables multiplied by n
+    int indy; variable entered by the user it will serve to make our predictions
+
+    double B0; this attribute is where the value for Beta 0 will be stored after the calculations
+    double B1; this attribute is where the value for Beta 1 will be stored after the calculations
+    double r; this atribute stores the value for the correlation coeffecient r 
+    double Ry; is the prediction we make based on the slr algorithm
+    
+    int x [] = {23,26,30,34,43,48,52,57,58};  this array is taken from the data set it corresponds to the independent variables
+    int[] y ={651,762,856,1063,1190,1298,1421,1440,1518}; this array is taken from the data set it corresponds to the dependent variables
+    int[] p = {59,60,61,64,65,70,75,80}; this array will serve as our independent variables in the predictions we intend to make this is used for testing 
+    int[] a, int[] s, and int[] = are auxilary arrays that helps us make our calculations
+    
+Methods:
+
+    public void sumatoriaX(): calcus of the summation of x
+    public void sumatoriaY(): calcus of the summation of y
+    public void sumatoriaXY(): calculus of the summation of the values of x multiplied by y
+    public void sumatoriaNXY():calculus of the summation of the values of x multiplied by y multiplied by n
+    public void sumatoriaXsq(): calcus of the summation of x squared
+    public void sumatoriaYsq(): calcus of the summation of y squared
+    public void sumatoriaNXsq(): calculus of the sumation of x squared multiplied by n
+    public void sumatoriaNYsq(): calculus of the sumation of y squared multiplied by n
+    public void Beta1(): calculus of Beta 1
+    public void Beta0(): calculus of Beta 0
+    public void CorrelationR(): calculus of the coeficient correlation r
+    public void AutomatedPrediction(): Method that makes predictions based on the p array this was made for testing our predictions I decided not to remove
+    to further prove the the slr algorithm
+    public void Prediction(): calculus of the predictions of the slr algorithm, this is where our final answer is calculated .
+    public void Results(): method to where we print our results.
+
+*/
